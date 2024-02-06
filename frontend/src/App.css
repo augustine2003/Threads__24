@@ -351,5 +351,16 @@ h1 {
 
 .section2 {
   height: 100vh;
-  background-color: #000;
+  /* background-color: #000; */
+  /* background-image: url('./images/space_tree.jpg');
+  background-size: cover; */
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
 }

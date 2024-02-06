@@ -1,5 +1,5 @@
 const express = require("express");
-const Detail = require('../models/detailModel')
+const Detail = require('../../models/detailModel')
 
 const router = express.Router();
 
@@ -13,4 +13,6 @@ router.post('/registration',async (req, res)=> {
         res.status(400).json({error: error.message})
     }
 })
+
+
 module.exports = router;
