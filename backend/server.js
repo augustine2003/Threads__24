@@ -2,7 +2,7 @@ require("dotenv").config();
 
 const express = require("express");
 const mongoose = require("mongoose");
-const detailsRoutes = require("./domains/user.js/routes");
+const detailsRoutes = require("./routes/details");
 
 //express app
 const app = express();

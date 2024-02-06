@@ -2,7 +2,6 @@ import React from "react";
 import BannerBackground from "../images/coding.jpg";
 import BannerImage from "../images/coding.jpg";
 import { Navbar } from "./Navbar";
-import { Fade } from "react-awesome-reveal";
 
 const Home = () => {
   return (
@@ -30,11 +29,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Fade>
-        <div className="section2">
-          <h1 className="demo">next section</h1>
-        </div>
-      </Fade>
+      <div className="section2">
+        <h1 className="demo">next section</h1>
+      </div>
     </div>
   );
 };
