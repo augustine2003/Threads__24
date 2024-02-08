@@ -17,7 +17,7 @@ const Home = () => {
             </p>
             <a
               className="register_btn"
-              href="https://youtube.com/c/shortcode"
+              href="/register"
               target="_blank"
             >
               <span> </span>
